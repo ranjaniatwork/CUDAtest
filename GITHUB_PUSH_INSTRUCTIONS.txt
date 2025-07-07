@@ -1,0 +1,40 @@
+# INSTRUCTIONS TO PUSH YOUR CUDA CODE TO GITHUB
+# =============================================
+
+# You have two options to push your code:
+
+# OPTION 1: Using Personal Access Token (Recommended)
+# --------------------------------------------------
+# 1. Go to: https://github.com/settings/tokens
+# 2. Click "Generate new token (classic)"
+# 3. Name: "CUDA Project"
+# 4. Select scope: "repo" (full control)
+# 5. Generate and copy the token
+# 6. Run this command (replace YOUR_TOKEN):
+
+git push https://YOUR_TOKEN@github.com/ranjaniatwork/CUDAtest.git main
+
+# OPTION 2: Using Git Credential Manager
+# --------------------------------------
+# Run this to clear cached credentials and re-authenticate:
+
+git config --global credential.helper manager-core
+git push origin main
+
+# This will open a browser window for GitHub authentication
+
+# OPTION 3: Change Remote URL to SSH (if you have SSH keys)
+# --------------------------------------------------------
+git remote set-url origin git@github.com:ranjaniatwork/CUDAtest.git
+git push origin main
+
+# VERIFY PUSH SUCCESS
+# ------------------
+# After successful push, verify at:
+# https://github.com/ranjaniatwork/CUDAtest
+
+# YOUR CURRENT REPOSITORY STATUS:
+# - All files are committed and ready
+# - Remote is correctly set to ranjaniatwork/CUDAtest
+# - Git user is configured as: ranjaniatwork <ranjuhedwig@gmail.com>
+# - Only authentication is needed to complete the push
