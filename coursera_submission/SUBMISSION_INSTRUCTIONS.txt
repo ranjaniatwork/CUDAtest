@@ -1,0 +1,35 @@
+COURSERA SUBMISSION CONTENTS
+===========================
+
+This zip file contains:
+
+1. EXECUTION RESULTS:
+   - summary.txt: Performance metrics and execution summary
+   - execution_detailed_log.txt: Detailed execution logs
+   - original_vs_processed/: Before and after images
+
+2. DOCUMENTATION:
+   - Project_Description.txt: Project overview for Coursera
+   - README.md: Complete project documentation
+   - COURSERA_SUBMISSION_REPORT.md: Detailed technical report
+
+3. SOURCE CODE:
+   - src/: All CUDA source files
+   - Coursera_CUDA_Assignment.ipynb: Google Colab notebook
+
+4. SCREENSHOTS (ADD THESE MANUALLY):
+   - screenshots/: Add your Colab execution screenshots here
+   - Include: nvidia-smi output, execution progress, results
+
+GITHUB REPOSITORY:
+https://github.com/ranjaniatwork/CUDAtest
+
+SUBMISSION CHECKLIST:
+☐ Executed CUDA code on Google Colab
+☐ Captured screenshots of execution
+☐ Saved enhanced images to results/original_vs_processed/
+☐ Updated summary.txt with actual performance metrics
+☐ Pushed code to GitHub repository
+☐ Created this zip file with all artifacts
+☐ Uploaded zip file and GitHub link to Coursera
+
