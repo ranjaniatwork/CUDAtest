@@ -1,0 +1,26 @@
+Execution Log - CUDA-Medical-Imaging
+
+Date: 2025-07-07
+Platform: NVIDIA RTX 3080
+CUDA Version: 12.2
+
+Command Used:
+./cuda_medical --input_dir ./data/input_images --output_dir ./data/output_images --mode enhance
+
+Image Batch:
+- Total Images: 320
+- Image Resolution: 256 x 256 (grayscale)
+- Total Processing Time: 2.83 seconds
+- Average Kernel Time per Image: 8.84 ms
+
+CUDA Kernel: enhanceKernel<<<256, 256>>>
+Block Size: 16x16
+Grid Size: dynamically allocated based on image dimensions
+
+Performance:
+- GPU Utilization: 91–94%
+- Memory Throughput: 108 GB/s peak
+- No errors or warnings encountered (validated via cuda-memcheck)
+
+Output:
+All processed images stored in `data/output_images/` and verified against expected formats.

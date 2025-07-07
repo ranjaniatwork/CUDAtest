@@ -1,0 +1,52 @@
+===============================================
+🎓 COURSERA CUDA ASSIGNMENT - SETUP OPTIONS
+===============================================
+
+⚠️  IMPORTANT: This is for Coursera CUDA at Scale Assignment!
+Since you have AMD GPU (not NVIDIA), here are your options:
+
+📋 RECOMMENDED SOLUTIONS:
+
+🥇 OPTION 1: GOOGLE COLAB (FREE NVIDIA GPU)
+   • Go to: https://colab.research.google.com
+   • Runtime → Change runtime type → GPU
+   • Get free Tesla T4 GPU access
+   • Pre-installed CUDA environment
+   • Perfect for Coursera assignments!
+
+🥈 OPTION 2: CLOUD GPU SERVICES
+   • Amazon AWS EC2 with GPU instances
+   • Google Cloud Platform GPU VMs
+   • Microsoft Azure GPU instances
+   • Usually free tier or student credits available
+
+🥉 OPTION 3: LOCAL CPU VERSION (if instructor allows)
+   • Install Visual Studio + OpenCV only
+   • Demonstrate CUDA concepts
+   • May not meet assignment requirements
+
+❌ NOT VIABLE (your current hardware):
+   • AMD GPU cannot run CUDA
+   • NVIDIA GPU required for CUDA
+
+===============================================
+🎯 RECOMMENDED: USE GOOGLE COLAB
+
+1. Open Google Colab (free)
+2. Enable GPU runtime
+3. Upload your CUDA project files
+4. Compile and run with real NVIDIA GPU
+5. Submit results to Coursera
+
+See COURSERA_CUDA_GUIDE.md for detailed steps!
+
+===============================================
+✅ SUCCESS CRITERIA (for Coursera):
+
+When working, you'll demonstrate:
+- ✅ Real CUDA compilation on NVIDIA GPU
+- ✅ GPU-accelerated medical image processing
+- ✅ Performance metrics and GPU utilization
+- ✅ Enhanced medical images as output
+
+� Perfect for your Coursera CUDA assignment!
